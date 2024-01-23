@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "MIT 6100 Fall Chat Tutor Extension",
+    "description": "TBD",
+    "version": "0.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://introcomp.mit.edu/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "https://introcomp.mit.edu/*"
+            ],
+            "resources": [
+                "component.js"
+            ]
+        }
+    ]
+}

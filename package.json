@@ -1,0 +1,18 @@
+{
+  "name": "6100-fall-chat-tutor-extension",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "download:component": "curl -o public/component.js https://mitmedialab.github.io/chat-tutor-embeddable/main/chat-tutor.es.js",
+    "build": "npm run download:component && tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.258",
+    "svelte": "^4.2.9",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
