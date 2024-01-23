@@ -10,4 +10,4 @@ This codebase leverages the embeddable version of the [ChatTutor UI](https://git
 npm run build
 ```
 
-Then follow these instructions to load the generated `dist/` folder as an "unpacked" extension.
+Then follow [these instructions](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) to load the generated `dist/` folder as an "unpacked" extension.
