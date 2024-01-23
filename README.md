@@ -1,4 +1,4 @@
-# 6.100 Spring Chat Tutor Extension
+# 6.100 Spring ChatTutor Extension
 
 This is the codebase to support the development of the [ChatTutor](https://github.com/ChatTutor/chattutor)-powered Chrome Extension deployed in the Spring 2024 MIT 6.100 course. 
 
